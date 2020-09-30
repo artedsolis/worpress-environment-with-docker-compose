@@ -1,5 +1,5 @@
 # docker-compose-for-worpress
-## a WordPress building environement
+## a WordPress environement
 
 ## Table of contents
 * [General info](#general-info)
