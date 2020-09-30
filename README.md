@@ -1,4 +1,5 @@
 # docker-compose-for-worpress
+## a WordPress building environement
 
 ## Table of contents
 * [General info](#general-info)
@@ -7,7 +8,9 @@
 
 ## General info
 This repository mainly hosts a sample of .yaml file for running docker-compose with WordPress.
+
 Once docker-compose command line runned, it will start a WordPress with its file structure and pesistent mysql.
+
 Finally, you will be able to start running WordPress and phpmyadmin on localhost.
 	
 ## Technologies
