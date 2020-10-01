@@ -1,7 +1,7 @@
 # docker-compose-for-worpress
 ## a WordPress environement
 ![](https://github.com/artedsolis/docker-compose-for-worpress-environement/blob/master/docker-compose.png "docker-compose logo")
-![](https://github.com/artedsolis/docker-compose-for-worpress-environement/blob/master/index.png "WordPress logo")
+
 
 ## Table of contents
 * [General info](#general-info)
