@@ -11,7 +11,7 @@
 ## General info
 This repository mainly hosts a sample of .yaml file for running docker-compose with WordPress.
 
-Once docker-compose command line runned, it will start a WordPress with its file structure and pesistent mysql.
+Once docker-compose command line runned, WordPress image will pull its file structure.
 
 Finally, you will be able to start running WordPress and phpmyadmin on localhost.
 	
@@ -23,16 +23,28 @@ Project is created with:
 * Run on: Linux ubuntu 20.04
 	
 ## Setup
-To run this project, install it locally using docker-compose CLI:
+1. Clone this repo
 
-1. **$ docker-compose up -d**
+2. go inside the repo with:
 
-2. then go to: 
+**$ cd [name_of_the repo]**
+
+3. type de following command on your terminal:
+
+**$ docker-compose up -d**
+
+**Note**: 
+- __this WordPress image uses apache, so that's why volumes are as following__ _volumes: ['./:/var/www/html/']_
+- __the image will link WordPress files into your repo's folder__        
+
+4. finally go to your: 
 http://localhost:8000
 &
 http://localhost:8080
 
-to stop docker-compose run:
+5. you're donne for installation!
+
+6. to stop docker-compose for runnig type:
 
 **$ docker-compose down**
 
