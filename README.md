@@ -25,7 +25,7 @@ Project is created with:
 ## Setup
 1. Clone this repo:
 
-**$ git clone https://github.com/artedsolis/worpress-environement-with-docker-compose.git**
+**$ git clone https://github.com/artedsolis/worpress-environment-with-docker-compose.git**
 
 2. go inside the repo with:
 
