@@ -1,5 +1,5 @@
-# docker-compose-for-worpress
-## a WordPress environement
+# A WordPress environment 
+## with docker-compose
 ![](https://github.com/artedsolis/docker-compose-for-worpress-environement/blob/master/docker-compose-wp.png "docker-compose and wordpress logos")
 
 
@@ -23,7 +23,9 @@ Project is created with:
 * Run on: Linux ubuntu 20.04
 	
 ## Setup
-1. Clone this repo
+1. Clone this repo:
+
+**$ git clone https://github.com/artedsolis/worpress-environement-with-docker-compose.git**
 
 2. go inside the repo with:
 
